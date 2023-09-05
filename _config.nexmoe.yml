@@ -1,0 +1,76 @@
+avatar: https://s2.loli.net/2022/12/30/1bQRNzZj8giLPuh.jpg # 网站 Logo
+background: # 既是博客的背景，又是文章默认头图
+    path: https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png
+    width: 1280
+    height: 726
+favicon:
+  href: /favicon.ico # 网站图标
+  type: image/x-icon # 图标类型，可能的值有(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
+
+function: # 功能开关，可选值（true,false）
+  globalToc: true # 开启该功能会自动开启文章 TOC（文章目录） 功能
+  wordCount: false # 是否开启文章字数统计 (true, false)
+  copyCode: true # 是否允许复制代码块
+
+imageCDN: # 图片 CDN 功能
+  enable: false # 开启该功能  
+  origin: /../../images/ # 图片原始目录
+  to: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/ # 图片 CDN 域名
+
+# 自定义样式，启用后可在站点的source文件夹下新建custom.css自定义站点样式
+customStyles:
+  - custom.css
+  
+# 附加图标库 使用说明：https://docs.nexmoe.com/config/icon
+iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
+
+menu:
+    Home:
+        - /
+        - icon-home
+
+widgets:
+    - name: search
+      enable: true
+      options: 
+        search: 
+            type: engine # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
+            url: https://cn.bing.com/search?q=site:nexmoe.com # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
+            id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
+    - name: social
+      enable: true
+      options: 
+        social:
+            GitHub:
+                - https://github.com/HappyWalkers
+                - icon-github
+                - rgb(25, 23, 23)
+                - rgba(25, 23, 23, .1)
+    - name: category
+      enable: true
+    - name: archive #settings: widgetAchive
+      enable: true
+      options:
+        widgetAchive: #文章归档组件
+            archive_type: 'year' #按月展示还是按年展示
+            show_count: true  #是否展示数量
+    - name: recent_posts
+      enable: true
+    - name: link #settings: widgetLink
+      enable: true
+      options: 
+        widgetLink: #链接组件
+
+slotHead: | 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4D4ZJ9G024"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+
+    gtag("config", "G-4D4ZJ9G024");
+  </script>
+
+slotFooter: | 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
