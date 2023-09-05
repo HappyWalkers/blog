@@ -1,0 +1,15 @@
+---
+title: MEAM520 Intro to ROBO - Final Project
+date: 2023-09-04 22:25:58
+tags: Robotics
+cover: https://s2.loli.net/2023/09/05/kEonY6RzKjMsyNi.png 
+coverWidth: 1200
+coverHeight: 750
+---
+
+# Report
+
+<div class="row">
+    <iframe src="https://drive.google.com/file/d/1gTDxBIXD2UjlgUgxtFWwkvsPnN5b45tC/preview" style="width:100%; height:550px"></iframe>
+</div>
+
