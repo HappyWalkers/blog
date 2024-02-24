@@ -2,6 +2,9 @@
 title: Hexo
 date: 2022-12-28 21:28:17
 tags: Blog
+cover: https://s2.loli.net/2024/02/24/6le2zdjBODXmsr7.png
+coverWidth: 1200
+coverHeight: 750
 ---
 
 
@@ -45,43 +48,7 @@ To set the cover of a post, you need to set the ‘cover’ value in the front-m
 ---
 title: Hello World
 date: 2013/7/13 20:46:25
-cover: https://i.loli.net/2019/07/21/5d33d5dc1531213134.png
-coverWidth: 1200
-coverHeight: 750
----
-```
-
-Using the plugin, we could display pdf directly on our blogs. For files on google drive, we could use:
-
-Deploy the new blog:
-
-```bash
-hexo generate
-hexo clean
-hexo deploy
-```
-
-Remember to add this line after a short description of this post:
-
-```bash
-<!-- more -->
-```
-
-When using the embedded code of an online video, such as the videos on Youtube or Bilibili, we could use the flowing line to adjust the size of the video window:
-
-```bash
-<div class="mdui-video-container">
-    <iframe src="//player.bilibili.com/player.html?aid=684730157&bvid=BV1BU4y197dp&cid=738874866&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> // the embedded code
-</div>
-```
-
-To set the cover of a post, you need to set the ‘cover’ value in the front-matter:
-
-```bash
----
-title: Hello World
-date: 2013/7/13 20:46:25
-cover: https://i.loli.net/2019/07/21/5d33d5dc1531213134.png
+cover: https://s2.loli.net/2024/02/24/6le2zdjBODXmsr7.png
 coverWidth: 1200
 coverHeight: 750
 ---
