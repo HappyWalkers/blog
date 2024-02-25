@@ -1,5 +1,5 @@
 ---
-title: MEAM520 Intro to ROBO - Final Project
+title: Robot arm control
 date: 2023-09-04 22:25:58
 tags: Robotics
 cover: https://s2.loli.net/2023/09/05/kEonY6RzKjMsyNi.png 

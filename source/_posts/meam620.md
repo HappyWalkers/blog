@@ -1,5 +1,5 @@
 ---
-title: MEAM 620 Advanced Robotics
+title: Drone - path planning, trajectory planning, and PID controller
 date: 2023-09-04 22:41:42
 tags: Robotics
 cover: https://s2.loli.net/2023/09/05/85xeJ2gShjKT3G1.png
